@@ -1,0 +1,16 @@
+{
+  "name": "message-classifier",
+  "version": "0.0.0",
+  "description": "Classify messages",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "node ./modules/prepare/index.js",
+    "classify": "node index.js"
+  },
+  "dependencies": {
+    "execa": "^0.10.0",
+    "listr": "^0.14.1",
+    "natural-brain": "^0.3.2",
+    "simple-git": "^1.95.0"
+  }
+}

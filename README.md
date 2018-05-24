@@ -6,4 +6,4 @@ Process a message and classifies it according to [Angular's commit convention](h
 
 Before use it you should prepare the classifier. In order to do it you need to execute `npm run prepare`.
 
-This script clone Angular repository, extract commit messages from its log and use those to teach classifier how to get types from messages properly.
+This script clones Angular repository, extracts commit messages from its log and uses those to teach classifier how to get types from messages properly.
